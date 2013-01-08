@@ -1,4 +1,11 @@
 Fyef::Application.routes.draw do
+  
+  root :to => 'static_pages#home'
+  
+  devise_for :users  
+
+  get "about" => "static_pages#about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +55,7 @@ Fyef::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+
 
   # See how all your routes lay out with "rake routes"
 
