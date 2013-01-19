@@ -4,7 +4,8 @@ gem 'rails', '3.2.11'
 gem 'sass-rails', '~> 3.2'
 gem 'bootstrap-sass', '~> 2.2.2.0'
 gem 'devise'
-gem "sqlite3", "~>1.3.7"
+gem "pg"
+gem "carousel", "~> 1.0.0"
 #gem install devise
 #bundle install
 
