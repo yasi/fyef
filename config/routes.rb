@@ -2,9 +2,19 @@ Fyef::Application.routes.draw do
   
   root :to => 'static_pages#home'
   
-  devise_for :users  
+  devise_for :users
+    
+  get "home" => 'static_pages#home'
 
   get "about" => "static_pages#about"
+    
+  get "scholarship" => "static_pages#scholarship"
+
+  get "events" => "static_pages#events"
+
+  get "getinvolved" => "static_pages#getinvolved"
+    
+  get "news" => "static_pages#news"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

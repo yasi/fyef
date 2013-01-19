@@ -6,53 +6,42 @@
 	</head>
 	<body>
 		
-			<% if user_signed_in?%>
+		<div class="navbar navbar-fixed-top">  
+		  <div class="navbar-inner">  
+		    <div class="container">  
+		    
+				<ul class="nav">  
+				  <li class="active">  
+				    <a class="FYEF" href="home">Home</a>  
+				  </li>  
+				  <li><a href="about">About</a></li>  
+				  <li><a href="scholarship">Scholarship</a></li>  
+				  <li><a href="events">Events</a></li> 
+				  <li><a href="getinvolved">Get Involved</a></li>  
+				  <li><a href="news">News</a></li> 
+				</ul>  
 		
-			<% else %>
-				<div class="center hero-unit">
-					<h1>Welcome to FYEF</h1>
-					
-					<div id="myCarousel" class="carousel slide">
-					  <!-- Carousel items -->
-					  <div class="carousel-inner">
-					    <div class="active item">…</div>
-							<%=image_tag("0071_FYEFDSC_0112.jpg", :alt=>"FYEF 1") %>
-							<div class="carousel-caption">
-							 <h4>First Thumbnail label</h4>
-							  </div>
-					    <div class="item">…</div>
-											<%=image_tag("0068_FYEFDSC_0109.jpg", :alt=>"FYEF 3") %>
-											<div class="carousel-caption">
-											 <h4>Second Thumbnail label</h4>
-											  </div>
-					    <div class="item">…</div>
-									<%=image_tag("0070_FYEFDSC_0111.jpg", :alt=>"FYEF 3") %>
-									<div class="carousel-caption">
-									 <h4>Third Thumbnail label</h4>
-									  </div>
-					  </div>
-					  <!-- Carousel nav -->
-					  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-					  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-					</div>
-					
-					
-					
-					
-					<h2>
-					  You've found the home page for the
-					  <a href="#">Foster Youth Education Fund</a>
-					  test site.
+		 
+		    </div>  
+		  </div>  
+		</div>
+	
+	<div class="center hero-unit">
+					<h1>Foster Youth Education Fund</h1><br>
+					<%= image_tag("0071_FYEFDSC_0112.jpg", :class => "img-polaroid") %>
+				
+					  <br><br>	<p> <strong>FYEF</strong> is a non-profit organization created to generate and disburse education grants to emancipating foster youth in the four county Sacramento region.</p>
+						<p>We believe that all children deserve to dream big and to have an opportunity to strive for those dreams through higher education.</p>
+					  
 					</h2>
 				
-				   <%= link_to "Sign up now!", new_user_registration_path, :class => "btn btn-large btn-primary" %>
+				 
+				<br><br><br><br><br><br><br><br><br><br>
 				<hr>
-					<h3>About</h3>	
-				
-						<p>The <strong>Foster Youth Education Fund</strong> is a non-profit organization created to generate and disburse education grants to emancipating foster youth in the four county Sacramento region.</p>
-						<p>We believe that all children deserve to dream big and to have an opportunity to strive for those dreams through higher education.</p>
-
+		
 						
+
+				<br><br><br><br><br><br><br>
 					
 				
 				<hr>
@@ -62,7 +51,6 @@
 			
 				
 
-				<% end %>
 			
 										
 			
@@ -70,3 +58,6 @@
 	
 			
 		</html>
+		
+		
+		<!-- save for later <a href="#">Foster Youth Education Fund</a> -->
