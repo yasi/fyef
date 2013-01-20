@@ -6,6 +6,7 @@ gem 'bootstrap-sass', '~> 2.2.2.0'
 gem 'devise'
 gem "pg"
 gem "carousel", "~> 1.0.0"
+gem "actionmailer", "~> 3.2.11"
 #gem install devise
 #bundle install
 

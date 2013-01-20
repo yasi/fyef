@@ -125,6 +125,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer (~> 3.2.11)
   bootstrap-sass (~> 2.2.2.0)
   carousel (~> 1.0.0)
   coffee-rails (~> 3.2.1)
