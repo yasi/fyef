@@ -118,7 +118,7 @@ p {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  color: inherit;
+  color: #ecf0f1;
   background-color: #9b59b6;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -128,7 +128,7 @@ p {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
-  color: inherit;
+  color: #ecf0f1;
   letter-spacing: -1px;
 }
 .hero-unit li {
@@ -146,8 +146,11 @@ padding: 0 0 30px 0;
 
 /* navbar */
 
-.navbar {
+.navbar-inner {
  
     background-color: #9b59b6;
     color: #ecf0f1;
+    background-image: none;
+	background-repeat: no-repeat;
+	filter: none;
 }
